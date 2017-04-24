@@ -22,7 +22,7 @@ public class OrderItem
 
     public double getValue()
     {
-        return quantity*price;
+        return quantity*(product.price);
     }
     public String toString()
     {
