@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Catalog
+public class Catalog implements Iterable<Product>
 {
     //成员变量
     private ArrayList<Product>products;
@@ -20,10 +20,11 @@ public class Catalog
 
     public Product getProduct(String code)
     {
-        for(Product it:products)
+        for(:products)
         {
-            if(it.getCode()==code)
-                return it;
+            Product compare=(Product) Product_it;
+            if(compare.getCode() == code)
+                return compare;
         }
         return null;
     }
@@ -31,9 +32,9 @@ public class Catalog
     public int getNumberOfProducts()
     {
         int sum=0;
-        for(Product it:products)
+        for(Product_it:products)
         {
-            if(it!=null)
+            if(Product_it!=null)
                 sum++;
         }
         return sum;
@@ -45,6 +46,5 @@ public class Catalog
         for(Product it:products)
             it=null;
     }
-
 
 }

@@ -5,6 +5,7 @@ public class Order
 {
     //成员变量
     private ArrayList<OrderItem>items;
+    Iterable<OrderItem>OrderItem_it;
 
     //成员方法
 	public void addItem(OrderItem orderItem)
@@ -48,7 +49,7 @@ public class Order
     {
         for(OrderItem it:items)
         {
-            
+            it.
         }
     }
 
