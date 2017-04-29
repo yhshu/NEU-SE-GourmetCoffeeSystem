@@ -1,11 +1,10 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Order
+public class Order implements Iterable<OrderItem>
 {
     //成员变量
     private ArrayList<OrderItem>items;
-    Iterable<OrderItem>OrderItem_it;
 
     //成员方法
 	public void addItem(OrderItem orderItem)
@@ -20,8 +19,7 @@ public class Order
 
     public Iterator<OrderItem> iterator()
     {
-        Iterator<OrderItem>it= (Iterator<OrderItem>) this;
-        return it;
+        return this.items.iterator();
     }
 
     public OrderItem getItem(Product product)
@@ -47,18 +45,17 @@ public class Order
 
     public double getTotalCost()
     {
+        int sum=0;
         for(OrderItem it:items)
         {
-            it.
+            sum+=it.getValue();
         }
+        return sum;
     }
 
     //构造方法
     public Order()
     {
-        for(OrderItem it:items)
-        {
-            it=null;
-        }
+        items=new ArrayList<OrderItem>();
     }
 }

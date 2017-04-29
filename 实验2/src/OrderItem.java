@@ -1,7 +1,7 @@
 public class OrderItem
 {
     //成员变量
-    private int quantity;
+    private int quantity;//数量
     private Product product;
 
     //成员方法

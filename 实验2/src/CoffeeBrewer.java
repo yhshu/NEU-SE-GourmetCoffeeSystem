@@ -35,5 +35,4 @@ public class CoffeeBrewer extends Product
         waterSupply=initialWaterSupply;
         numberOfCups=initialNumberOfCups;
     }
-
 }

@@ -14,17 +14,15 @@ public class Catalog implements Iterable<Product>
 
     public Iterator<Product> iterator()
     {
-        Iterator<Product>it= (Iterator<Product>) this;
-        return it;
+        return this.products.iterator();
     }
 
     public Product getProduct(String code)
     {
-        for(:products)
+        for(Product it:products)
         {
-            Product compare=(Product) Product_it;
-            if(compare.getCode() == code)
-                return compare;
+            if(it.getCode() == code)
+                return it;
         }
         return null;
     }
@@ -32,9 +30,9 @@ public class Catalog implements Iterable<Product>
     public int getNumberOfProducts()
     {
         int sum=0;
-        for(Product_it:products)
+        for(Product it:products)
         {
-            if(Product_it!=null)
+            if(it!=null)
                 sum++;
         }
         return sum;
@@ -43,8 +41,7 @@ public class Catalog implements Iterable<Product>
     //构造方法
     public Catalog()
     {
-        for(Product it:products)
-            it=null;
+        products=new ArrayList<Product>();
     }
 
 }
