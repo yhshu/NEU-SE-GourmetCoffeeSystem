@@ -21,7 +21,7 @@ public class Catalog implements Iterable<Product>
     {
         for(Product it:products)
         {
-            if(it.getCode() == code)
+            if(it.getCode().equals(code))
                 return it;
         }
         return null;

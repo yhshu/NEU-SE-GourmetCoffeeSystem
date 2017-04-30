@@ -5,7 +5,7 @@ import java.text.*;
 /**
  * This class implements a gourmet coffee system.
  *
- * @author author name
+ * @author 舒意恒
  * @version 1.1.0
  * @see Product
  * @see Coffee
@@ -387,7 +387,13 @@ public class GourmetCoffee  {
 	public void displayNumberOfOrders(Product product) {
 
 		/* PLACE YOUR CODE HERE */
-
+		int sum=0;
+		for(Order order_it:sales)
+		{
+			if(order_it.getItem(product)!=null)
+				sum++;
+		}
+		System.out.println("Number of orders that contains the product "+product.code+": "+sum);
 	}
 
 	/**
@@ -396,9 +402,26 @@ public class GourmetCoffee  {
 	 */
 	public void displayTotalQuantityOfProducts() {
 
-		/* PLACE YOUR CODE HERE */
-
+		/* PLACE YOUR CODE HERE */;
+		int numOfOrders=sales.getNumberOfOrders();
+		if(numOfOrders!=0)
+		{
+			for(Product product_it:catalog)
+			{
+				int quantity=0;
+				for(Order order_it:sales)
+				{
+					for(OrderItem orderItem_it:order_it)
+					{
+						if(product_it.equals(orderItem_it.getProduct()))
+							quantity+=orderItem_it.getQuantity();
+					}
+				}
+				System.out.println(product_it.getCode()+" "+quantity);
+			}
+		}
 	}
+
 
 	/*
 	 * Prompts user for a product code and locates the associated

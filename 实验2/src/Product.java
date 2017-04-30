@@ -28,7 +28,7 @@ public class Product
         if(this.getClass()==object.getClass())
         {
             Product compare=(Product)object;
-            if(this.getCode()==compare.getCode())
+            if(this.getCode().equals(compare.getCode()))
                 return true;
             else
                 return false;
