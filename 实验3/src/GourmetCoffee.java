@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * This class implements a gourmet coffee system.
  *
- * @author author name
+ * @author 舒意恒
  * @version 1.1.0
  * @see Product
  * @see Coffee
