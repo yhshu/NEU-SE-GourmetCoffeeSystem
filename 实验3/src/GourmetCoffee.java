@@ -219,6 +219,7 @@ public class GourmetCoffee  {
 	private void setSalesFormatter(SalesFormatter newFormatter){
 
 		/* PLACE YOUR CODE HERE */
+		salesFormatter = newFormatter;
 	}
 
 	/**
@@ -227,6 +228,7 @@ public class GourmetCoffee  {
 	private void displaySales() {
 
 		/* PLACE YOUR CODE HERE */
+		System.out.println(salesFormatter.formatSales(sales));
 	}
 
 	/**
@@ -240,19 +242,21 @@ public class GourmetCoffee  {
 		while (choice != 0)  {
 
 			if (choice == 1)  {
-
+				System.out.flush();
 				/* PLACE YOUR CODE HERE */
-
+				setSalesFormatter(PlainTextSalesFormatter.getSingletonInstance());
+				displaySales();
 			} else if (choice == 2)  {
 
 				/* PLACE YOUR CODE HERE */
-
+				setSalesFormatter(HTMLSalesFormatter.getSingletonInstance());
+				displaySales();
 			} else if (choice == 3)  {
 
 				/* PLACE YOUR CODE HERE */
-
+				setSalesFormatter(XMLSalesFormatter.getSingletonInstance());
+				displaySales();
 			}
-
 			choice = getChoice();
 		}
 	}
