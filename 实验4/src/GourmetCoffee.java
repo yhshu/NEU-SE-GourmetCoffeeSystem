@@ -216,10 +216,13 @@ public class GourmetCoffee  {
 	 * @param content data to be stored
 	 */
 	private void writeFile(String filename, String content)
-		throws IOException {
+		throws IOException
+	{
 
 		/* PLACE YOUR CODE HERE */
-		
+		PrintWriter printWriter = new PrintWriter(new FileWriter(filename));
+		printWriter.println(content);
+		printWriter.close();
 	}
 
 	/**
