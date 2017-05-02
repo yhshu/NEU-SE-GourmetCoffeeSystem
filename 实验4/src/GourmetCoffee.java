@@ -5,7 +5,7 @@ import java.text.*;
 /**
  * This class implements a gourmet coffee system.
  *
- * @author author name
+ * @author &#x8212;&#x610f;&#x6052;
  * @version 1.1.0
  * @see Product
  * @see Coffee
