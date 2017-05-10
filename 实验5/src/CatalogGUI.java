@@ -149,11 +149,11 @@ public class CatalogGUI extends JPanel {
 		valuePanel.setLayout(new GridLayout(9,0));
 		for(DataField data:dataFields)
 		{
-			JLabel name=new JLabel(data.getName()+":");
-			JTextField value=new JTextField(data.getValue());
-			value.setEditable(false);
-			namePanel.add(name);
-			valuePanel.add(value);
+			JLabel cur_name=new JLabel(data.getName()+":");
+			JTextField cur_value=new JTextField(data.getValue());
+			cur_value.setEditable(false);//设定文本框为不可编辑
+			namePanel.add(cur_name);
+			valuePanel.add(cur_value);
 		}
 		productInfoPanel.add(namePanel,BorderLayout.WEST);
 		productInfoPanel.add(valuePanel,BorderLayout.EAST);
