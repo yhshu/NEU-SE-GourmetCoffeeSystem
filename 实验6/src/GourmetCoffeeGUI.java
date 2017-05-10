@@ -343,12 +343,14 @@ public class GourmetCoffeeGUI extends JPanel {
 				statusTextArea.setText("The quantity text field does not contain an integer.");
 				return;
 			}
+
 			if (quantity <= 0)//数字大小的错误
 			{
 				statusTextArea.setText("The quantity text field contains a negative integer or zero. ");
 				return;
 			}
-			String selectedCode = (String) catalogList.getSelectedValue();
+			String selectedCode = (String) catalogList.getSelectedValue();//获取用户在界面中选择的产品的代码
+
 			if (selectedCode == null)//未选择代码的错误
 			{
 				statusTextArea.setText("You have not selected a product. ");
@@ -356,13 +358,13 @@ public class GourmetCoffeeGUI extends JPanel {
 			}
 
 			Product selectedProduct = catalog.getProduct(selectedCode);//尝试寻找选定的产品
-			if (currentOrder.getItem(selectedProduct) == null)//如果目前没有这种产品
-				currentOrder.addItem(new OrderItem(selectedProduct, quantity));
+			if (currentOrder.getItem(selectedProduct) == null)//如果当前列表中没有这种产品
+				currentOrder.addItem(new OrderItem(selectedProduct, quantity));//在当前列表中添加这种产品
 
 			for (OrderItem orderItem_it:currentOrder)
 			{
-				if (orderItem_it.getProduct().equals(selectedProduct))
-					orderItem_it.setQuantity(quantity);
+				if (orderItem_it.getProduct().equals(selectedProduct))//找到产品
+					orderItem_it.setQuantity(quantity);//设定数量
 			}
 
 			orderList.setVisible(false);
@@ -482,15 +484,15 @@ public class GourmetCoffeeGUI extends JPanel {
 				statusTextArea.setText("No orders have been sold.");
 				return;
 			}
-			int fileSelectionResult = fileChooser.showOpenDialog(null);
+			int fileSelectionResult = fileChooser.showSaveDialog(null);
 			if (fileSelectionResult == JFileChooser.APPROVE_OPTION)//文件选择成功
 			{
 				try
 				{
-					File filename = fileChooser.getSelectedFile();
-					PrintWriter fileOut = new PrintWriter(new FileWriter(filename));
-					fileOut.println(salesFormatter.formatSales(sales));
-					fileOut.close();
+					File selectedFile = fileChooser.getSelectedFile();
+					PrintWriter fileOut = new PrintWriter(new FileWriter(selectedFile));
+					fileOut.println(salesFormatter.formatSales(sales));//注册的菜单已被保存到了Sales中
+					fileOut.close();//关闭输出流
 					statusTextArea.setText("The sales information has been saved.");
 				}
 				catch (IOException ioException)

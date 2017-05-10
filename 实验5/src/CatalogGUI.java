@@ -143,7 +143,7 @@ public class CatalogGUI extends JPanel {
 		productInfoPanel.setLayout(new BorderLayout());
 		JPanel namePanel=new JPanel();
 		JPanel valuePanel=new JPanel();
-		namePanel.setPreferredSize(new Dimension(100,170));
+		namePanel.setPreferredSize(new Dimension(80,170));
 		valuePanel.setPreferredSize(new Dimension(200,170));
 		namePanel.setLayout(new GridLayout(9,0));
 		valuePanel.setLayout(new GridLayout(9,0));
@@ -155,8 +155,8 @@ public class CatalogGUI extends JPanel {
 			namePanel.add(cur_name);
 			valuePanel.add(cur_value);
 		}
-		productInfoPanel.add(namePanel,BorderLayout.WEST);
-		productInfoPanel.add(valuePanel,BorderLayout.EAST);
+		productInfoPanel.add(namePanel,BorderLayout.WEST);//面板左边
+		productInfoPanel.add(valuePanel,BorderLayout.EAST);//面板右边
 		return productInfoPanel;
 		//return new JPanel(); // REMOVE; USED SO THIS FILE COMPILES
 
