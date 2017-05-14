@@ -16,8 +16,8 @@
       <file leaf-file-name="GourmetCoffeeGUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GourmetCoffeeGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="275" column="52" lean-forward="false" selection-start-line="275" selection-start-column="52" selection-end-line="275" selection-end-column="52" />
+            <state relative-caret-position="1638">
+              <caret line="283" column="22" lean-forward="false" selection-start-line="283" selection-start-column="22" selection-end-line="283" selection-end-column="22" />
               <folding>
                 <element signature="docComment;class#GourmetCoffeeGUI#0" expanded="false" />
                 <element signature="docComment;method#main#0;class#GourmetCoffeeGUI#0" expanded="false" />
@@ -39,6 +39,18 @@
                 <element signature="class#XMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
                 <element signature="docComment;method#actionPerformed#0;class#XMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
                 <element signature="method#actionPerformed#0;class#XMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Catalog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Catalog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,6 +133,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -150,8 +164,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -605,19 +617,21 @@
       <workItem from="1494401919186" duration="4100000" />
       <workItem from="1494406613935" duration="145000" />
       <workItem from="1494407312145" duration="53000" />
+      <workItem from="1494408736763" duration="15000" />
+      <workItem from="1494425098060" duration="83000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16410000" />
+    <option name="totallyTimeSpent" value="16508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -641,6 +655,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -660,6 +675,74 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/GourmetCoffeeGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="method#main#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#GourmetCoffeeGUI#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="class#DisplayProductListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#valueChanged#0;class#DisplayProductListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="method#valueChanged#0;class#DisplayProductListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#AddModifyListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#RegisterSaleListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#DisplaySalesListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#DisplaySalesListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="class#PlainListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#PlainListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#PlainListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="class#HTMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#HTMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#HTMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="class#XMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#XMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#XMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Catalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GourmetCoffeeGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="method#main#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#GourmetCoffeeGUI#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="class#DisplayProductListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#valueChanged#0;class#DisplayProductListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="method#valueChanged#0;class#DisplayProductListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#AddModifyListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#RegisterSaleListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#DisplaySalesListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#DisplaySalesListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="class#PlainListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#PlainListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#PlainListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="class#HTMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#HTMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#HTMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="class#XMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#XMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#XMLListener#0;class#GourmetCoffeeGUI#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GourmetCoffeeGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1042,8 +1125,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Catalog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="672">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1052,8 +1135,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GourmetCoffeeGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="275" column="52" lean-forward="false" selection-start-line="275" selection-start-column="52" selection-end-line="275" selection-end-column="52" />
+        <state relative-caret-position="1638">
+          <caret line="283" column="22" lean-forward="false" selection-start-line="283" selection-start-column="22" selection-end-line="283" selection-end-column="22" />
           <folding>
             <element signature="docComment;class#GourmetCoffeeGUI#0" expanded="false" />
             <element signature="docComment;method#main#0;class#GourmetCoffeeGUI#0" expanded="false" />
